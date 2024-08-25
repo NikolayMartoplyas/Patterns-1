@@ -25,7 +25,7 @@ public class DeliveryCardTest {
     @Test
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting(){
-        var validUser = DataGenerator.Registration.generateUser("ru");
+//        var validUser = DataGenerator.Registration.generateUser("ru");
         var daysToAddForFirstMeeting = 5;
         var firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
         var daysToAddForSecondMeeting = 7;
